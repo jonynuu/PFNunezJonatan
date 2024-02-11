@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    background-color: black;
+    color: #661616;
+    background-image: url(../fotos/Fondo\ papel.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Titan One', sans-serif;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fabf1d;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 70px;
+    background-color: #661616;
+    font-family: 'Titan One', sans-serif;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-nombre{
+    font-size: 1.3em;
+    color: #fabf1d;
+    text-decoration: none;
+}
+
+.logo-img{
+    height: 50px;
+    margin-right: 15px;
+}
+
+nav{
+    padding-bottom: 15px;
+}
+nav a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: #fabf1d;
+}
+
+nav a:hover{
+    color: white;
+}
+.sobre{
+    font-family: 'Titan One', sans-serif;
+    color: #661616;
+}
+
+@media (min-width:600px){
+    header{
+        flex-direction: row;
+        padding: 0px 30px;
+        justify-content: space-between;
+    }
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Titan One', sans-serif;
+    font-size: 50px;
+    text-decoration: none;
+    color: #661616;
+}
+.turismo{
+    width: 50px;
+    margin-left: 30px;
+}
+.anchoElemento{
+    width: 400px;
+}
+.tituloTabla{
+    color: #661616;
+}
+
+.p5{
+    font-size: 10px;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.texto{
+    font-family: 'Titan One', sans-serif;
+    }
+
+.imagenes{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+   }
+.miami{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Titan One', sans-serif;
+    font-size: 15px;
+    margin: 180px;
+}
+.madrid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Titan One', sans-serif;
+    font-size: 15px;
+    margin: 180px;
+}
+.orlando{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Titan One', sans-serif;
+    font-size: 15px;
+    margin: 180px
+}
+.footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: black;
+    font-size: 10px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <head>
+        <h1>Formulario</h1>
+    </head>
+    <main>
+        <form action="">
+            <div>
+                <label for="name">Escribe tu nombre</label>
+                <input type="text" name="name" placeholder="Juan">
+            </div>
+             <br>
+             <div>
+                <label for="surname">Escribe tu apellido</label>
+                <input type="text" name="surname" placeholder="García">
+             </div>
+             <br>
+             <div>
+                <label for="mail">*Email</label>
+                <input type="email" name="mail" required>
+             </div>
+             <br>
+             <div>
+                <label for="pass">Password</label>
+                <input type="password">
+             </div>
+             <br>
+             <div>
+                <label for="pais">Nacionalidad</label>
+                <select name="nac" id="">
+                    <option value="arg">Argentina</option>
+                    <option value="uy">Uruguay</option>
+                    <option value="cl">Chile</option>
+                    <option value="br">Brasil</option>
+                </select>
+             </div>
+             <br>
+             <div>
+                <label for="sexo">Género</label><br>
+                <input type="radio" name="sexo" value="muj">Mujer
+                <input type="radio" name="sexo" value="hom">Hombre
+                <input type="radio" name="sexo" value="nb">No binario
+
+             </div><br>
+             <div>
+                <label for="terminos">Acepto términos y condiciones</label>
+                <input type="checkbox" name="terminos" value="1">
+             </div>
+             <br>
+             <input type="submit" value="Enviar Datos">
+             <input type="reset" value="Borrar formulario">
+
+
+
+
+
+
+        </form>
+    </main>
+   
+</body>
+</html>
