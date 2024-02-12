@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../fotos/Logo viaje.png">
     <title>Destinos</title>
+                     <!--Link a Bootstrap ⬇️⬇️⬇️-->
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+                     <!--Link a Bootstrap ⬆️⬆️⬆️-->
     <link rel="stylesheet" href="../CSS/estilopruebapf.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,32 +35,154 @@
     </head>
     
     <main>
-        <div class="miami">
-            <div>
-                <h1><span style="color: black;">Miami</span></h1>
-                <p>Playa, shopping y noches tropicales son las características que más distinguen a una de las ciudades mas cosmopolitas de la Florida. Miami mezcla sus playas paradisíacas con la elegancia de sus galerías de arte, sus pintorescas calles, y la colorida y sabrosa Little Havana con sus tan concurridos centros comerciales que son visitados diariamente por miles de turistas que hacen un stop en sus días de descanso para aprovechar las grandes ofertas que allí se ofrecen. Viajar a Miami significa aprovechar al máximo los días de sol, las actividades al aire libre y poder divertirse junto a la familia o con amigos en las hermosas playas, ya sea en la zona de South Beach, como en Key Biscayne, o Virginia Key Beach. Si en tu viaje a Miami estás buscando una playa más silenciosa y poco turística, la playa de Homestead Bayfront es la adecuada ya que no sólo podrás disfrutar de la tranquilidad sino que también podrás aprovechar para conocer sus hermosos arrecifes de coral. Con un clima caluroso y mucho sol, Miami es quizás una de las ciudades de Estados Unidos que más turistas recibe por lo cual la frecuencia de vuelos entre Buenos Aires y Miami permiten encontrar excelentes promociones aéreas</p>
+        <h2 class="sobre m-3 text-center">Nuestros destinos</h2>
+        <!--inicio carrousel-->
+        <div id="carouselMiami" class="carousel slide w-75 m-auto">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselMiami" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselMiami" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselMiami" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
             </div>
-            <img src="../fotos/Miami.jpg" alt="miami" width="700px">
-        </div>
-        <div class="madrid">
-            <div>
-                <h1><span style="color: black;">Madrid</span></h1>
-                <p>Tapas, cultura, bohemia e historia española Se la conoce como una de las ciudades más pobladas de Europa y posee un encanto cultural que atrae a turistas de todo el mundo que quieren recorrer sus monumentos, conocer la gastronomía típica de Madrid, visitar sus museos y por supuesto vivir las noches madrileñas acompañadas de flamenco y tapas.Viajar a Madrid es toparse con lo bohemio y la vanguardia a cada paso. El Círculo de Bellas Artes de Madrid posee un reconocimiento mundial en donde se pueden visitar exposiciones, conciertos, espectáculos de baile o teatro. En Madrid convergen las tendencias artísticas, un claro ejemplo de ello son los museos como el Museo del Romanticismo, Museo Cerralbo, Museo Sorolla, Museo del Prado, Museo Reina Sofía que reciben asiduamente miles de turistas ansiosos de conocer la cultura madrileña. Por supuesto que para conocer Madrid a fondo hay que contar con varios días, ya que algunos puntos turísticos son obligatorios, tales como la Plaza Mayor, el Templo de Debod, el Parque del Retiro, la Puerta del Sol, la Catedral de Almudena, la Plaza de Toros, el Palacio Real y por supuesto, la Puerta de Alcalá.Lo conservador y clásico se mezclan en el Palacio de Cibeles, la Biblioteca Nacional y el Monasterio de las Descalzas. En cuanto a la gastronomía madrileña, una visita a los mercados como Mercado de San Miguel, Mercado de San Antón, o al Rastro de Madrid te permitirán degustar unas deliciosas tapas y unas riquísimas cañas para que disfrutes de tu viaje a Madrid en todo momento.</p>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../fotos/miami.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Miami</h5>
+                  <p>Playa, shopping y noches tropicales son las características que más distinguen a una de las ciudades mas cosmopolitas de la Florida. Miami mezcla sus playas paradisíacas con la elegancia de sus galerías de arte, sus pintorescas calles, y la colorida y sabrosa Little Havana con sus tan concurridos centros comerciales que son visitados diariamente por miles de turistas que hacen un stop en sus días de descanso para aprovechar las grandes ofertas que allí se ofrecen</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../fotos/miami1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../fotos/miami2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
             </div>
-            <img src="../fotos/Madrid.jpg" alt="madrid" width="700px">
-        </div>
-        <div class="orlando">
-            <div>
-                <h1><span style="color: black;">Orlando</span></h1>
-                <p>Tapas, cultura, bohemia e historia española Se la conoce como una de las ciudades más pobladas de Europa y posee un encanto cultural que atrae a turistas de todo el mundo que quieren recorrer sus monumentos, conocer la gastronomía típica de Madrid, visitar sus museos y por supuesto vivir las noches madrileñas acompañadas de flamenco y tapas.Viajar a Madrid es toparse con lo bohemio y la vanguardia a cada paso. El Círculo de Bellas Artes de Madrid posee un reconocimiento mundial en donde se pueden visitar exposiciones, conciertos, espectáculos de baile o teatro. En Madrid convergen las tendencias artísticas, un claro ejemplo de ello son los museos como el Museo del Romanticismo, Museo Cerralbo, Museo Sorolla, Museo del Prado, Museo Reina Sofía que reciben asiduamente miles de turistas ansiosos de conocer la cultura madrileña. Por supuesto que para conocer Madrid a fondo hay que contar con varios días, ya que algunos puntos turísticos son obligatorios, tales como la Plaza Mayor, el Templo de Debod, el Parque del Retiro, la Puerta del Sol, la Catedral de Almudena, la Plaza de Toros, el Palacio Real y por supuesto, la Puerta de Alcalá.Lo conservador y clásico se mezclan en el Palacio de Cibeles, la Biblioteca Nacional y el Monasterio de las Descalzas. En cuanto a la gastronomía madrileña, una visita a los mercados como Mercado de San Miguel, Mercado de San Antón, o al Rastro de Madrid te permitirán degustar unas deliciosas tapas y unas riquísimas cañas para que disfrutes de tu viaje a Madrid en todo momento.</p>
+            <div class="carousel-item">
+              <img src="../fotos/miami3.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                
+              </div>
+              </div>
             </div>
-            <img src="../fotos/Orlando.jpg" alt="orlando" width="700px">
-        </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselMiami" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselMiami" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        
+            <!--fin carrousel-->
+            <br>
+            <div id="carouselMadrid" class="carousel slide w-75 m-auto">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselMadrid" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselMadrid" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../fotos/madrid.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Madrid</h5>
+                      <p>Tapas, cultura, bohemia e historia española Se la conoce como una de las ciudades más pobladas de Europa y posee un encanto cultural que atrae a turistas de todo el mundo que quieren recorrer sus monumentos, conocer la gastronomía típica de Madrid, visitar sus museos y por supuesto vivir las noches madrileñas acompañadas de flamenco y tapas.Viajar a Madrid es toparse con lo bohemio y la vanguardia a cada paso.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../fotos/madrid1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../fotos/madrid2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      
+                    </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="../fotos/Madrid3.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    
+                  </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselMadrid" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselMadrid" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+                <!--fin carrousel-->
+                <br>
+
+                <div id="carouselOrlando" class="carousel slide w-75 m-auto">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselOrlando" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselOrlando" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselOrlando" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="../fotos/Orlando.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Disney</h5>
+                          <p>
+                            Disney es el viaje soñado para toda la familia, donde los niños son los principales protagonistas y los padres gozan al ver a sus hijos convertir su sueño en realidad. Un paseo inolvidable que se queda en la memoria de todos, por eso para aprovechar cada momento hemos preparado unos cuantos consejos para que ese sueño te salga economico, ahorres y disfrutes en ese maravilloso lugar.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../fotos/Orlando1.jpg.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../fotos/Orlando2.jpg.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../fotos/Orlando3.jpg.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        
+                      </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselOrlando" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselOrlando" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                    <!--fin carrousel-->
+        
         
                 
         <p class="p5">1993-2024. TuristeAR.com S.R.L. Todos los derechos reservados. - Evt: Almundo.com - Legajo: 8362 - Disp: 1350/93 - Cuit Nº 30-65951462-8. 4 lugares disponibles por producto. Vigencia desde el 13/1/2024 al 15/1/2024 LA AGENCIA DE ACCESO A LA INFORMACIÓN PÚBLICA, en su carácter de Órgano de Control de la Ley N° 25.326, tiene la atribución de atender las denuncias y reclamos que interpongan quienes resulten afectados en sus derechos por incumplimiento de las normas vigentes en materia de protección de datos personales.</span></p>
     </main>
     <hr>
+     <!--LINK DE BOOTSTRAP ⬆️⬆️⬆️-->
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>      
     
 </body>
 </html>
