@@ -1,0 +1,26 @@
+footer{
+    a{
+        img{
+            width: 70px;
+            display: flex;
+            border-radius: 50%;
+            border: $amarillo 5px solid;
+            padding: 10px;
+            &:hover{
+                border: $marron 5px solid;
+            }
+        }
+        
+    }
+    div{
+        font-size: 10px;
+        min-height: 10vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: black;
+    }
+
+}

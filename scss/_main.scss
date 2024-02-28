@@ -1,0 +1,43 @@
+main{
+    div{
+    font-family: 'Titan One', sans-serif;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    
+    
+    
+    div{
+        align-items: center;
+        display: block;
+        text-decoration: none;
+         h1{
+            font-size: 80px;
+            color: $marron;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+        }
+        
+    }
+    .contenedor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 100px;
+    }
+    }
+    img{
+        width: 800px;
+        margin-left: 30px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    section{
+            justify-content:flex-start;
+            display: block;
+            flex-direction: row;
+            margin: 20px;        
+    }
+}

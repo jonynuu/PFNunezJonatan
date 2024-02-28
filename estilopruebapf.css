@@ -107,30 +107,7 @@ nav a:hover{
     justify-content: center;
     align-items: center;
    }
-.miami{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Titan One', sans-serif;
-    font-size: 15px;
-    margin: 180px;
-}
-.madrid{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Titan One', sans-serif;
-    font-size: 15px;
-    margin: 180px;
-}
-.orlando{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Titan One', sans-serif;
-    font-size: 15px;
-    margin: 180px
-}
+
 .footer{
     bottom: 0;
     position: fixed;

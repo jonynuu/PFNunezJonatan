@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  background-color: black;
+  color: #661616;
+  background-image: url(../fotos/Fondo\ papel.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Titan One", sans-serif;
+  text-decoration: none;
+}
+body header {
+  display: flex;
+  align-items: center;
+  min-height: 70px;
+  background-color: #661616;
+  font-family: "Titan One", sans-serif;
+  text-decoration: none;
+}
+body header a {
+  text-decoration: none;
+  color: #fabf1d;
+  align-items: center;
+  display: flex;
+}
+body header a img {
+  height: 50px;
+  margin-right: 15px;
+}
+body header a p {
+  font-size: 1.3em;
+  color: #fabf1d;
+  text-decoration: none;
+}
+body header nav {
+  padding-bottom: 15px;
+  display: flex;
+}
+body header nav a {
+  padding-left: 10px;
+  text-decoration: none;
+  color: #fabf1d;
+}
+body header nav a:hover {
+  color: white;
+}
+
+main div {
+  font-family: "Titan One", sans-serif;
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+}
+main div div {
+  align-items: center;
+  display: block;
+  text-decoration: none;
+}
+main div div h1 {
+  font-size: 80px;
+  color: #661616;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+main div .contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+main img {
+  width: 800px;
+  margin-left: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+main section {
+  justify-content: flex-start;
+  display: block;
+  flex-direction: row;
+  margin: 20px;
+}
+
+footer a img {
+  width: 70px;
+  display: flex;
+  border-radius: 50%;
+  border: #fabf1d 5px solid;
+  padding: 10px;
+}
+footer a img:hover {
+  border: #661616 5px solid;
+}
+footer div {
+  font-size: 10px;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+}
+
+.anchoElemento {
+  width: 400px;
+}
+
+@media screen and (max-width: 1700px) {
+  .contenedor {
+    background-position: 50%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  header {
+    padding: 40px;
+  }
+  .contenedor {
+    background-position: -100px;
+  }
+  .contenedor .svg img {
+    width: 600px;
+  }
+  .contenedor .titulo h1 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .logo .logo-nombre {
+    display: none;
+  }
+  .contenedor .svg img {
+    width: 500px;
+  }
+  .contenedor .titulo h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .logo .logo-nombre {
+    display: none;
+  }
+  .contenedor .svg img {
+    width: 600px;
+  }
+  .contenedor .titulo h1 {
+    display: none;
+  }
+}
+@media (min-width: 600px) {
+  header {
+    flex-direction: row;
+    padding: 0px 30px;
+    justify-content: space-between;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */
