@@ -48,7 +48,7 @@ main div {
   font-family: "Titan One", sans-serif;
   display: flex;
   text-decoration: none;
-  justify-content: center;
+  justify-content: space-around;
 }
 main div div {
   align-items: center;
@@ -56,7 +56,7 @@ main div div {
   text-decoration: none;
 }
 main div div h1 {
-  font-size: 80px;
+  font-size: 3.5rem;
   color: #661616;
   justify-content: center;
   display: flex;
@@ -69,8 +69,7 @@ main div .contenedor {
   font-size: 100px;
 }
 main img {
-  width: 800px;
-  margin-left: 30px;
+  width: 100% !important;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -103,8 +102,16 @@ footer div {
   color: black;
 }
 
-.anchoElemento {
-  width: 400px;
+.anchoCalificaciones {
+  width: 50% !important;
+}
+
+.formularios {
+  width: 30% !important;
+}
+
+.table {
+  width: 50% !important;
 }
 
 @media screen and (max-width: 1700px) {
@@ -120,7 +127,7 @@ footer div {
     background-position: -100px;
   }
   .contenedor .svg img {
-    width: 600px;
+    width: 100% !important;
   }
   .contenedor .titulo h1 {
     font-size: 50px;
@@ -131,7 +138,7 @@ footer div {
     display: none;
   }
   .contenedor .svg img {
-    width: 500px;
+    width: 100% !important;
   }
   .contenedor .titulo h1 {
     font-size: 40px;
@@ -142,10 +149,27 @@ footer div {
     display: none;
   }
   .contenedor .svg img {
-    width: 600px;
+    width: 100% !important;
   }
   .contenedor .titulo h1 {
     display: none;
+  }
+  .formularios {
+    width: 90% !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .logo .logo-nombre {
+    display: none;
+  }
+  .contenedor .svg img {
+    width: 100% !important;
+  }
+  .contenedor .titulo h1 {
+    display: none;
+  }
+  .formularios {
+    width: 90% !important;
   }
 }
 @media (min-width: 600px) {

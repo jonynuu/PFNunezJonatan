@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,12 +15,12 @@
     
 </head>
 <body>
-    <header>
-        <a href="#" class="logo">
+    <header class="navBar mr-auto">
+        <a href="../index.html" class="logo">
             <img src="../fotos/Logo viaje.png" alt="company logo" class="logo-img">
             <p class="logo-nombre animate__animated animate__swing">TuristeAR</p>
         </a>
-        <nav>
+        <nav class="flex-wrap">
             <a href="../index.html" class="nav.link animate__animated animate__pulse">Inicio</a>
             <a href="./Destinos.html" class="nav.link animate__animated animate__pulse">Destinos</a>
             <a href="./Sobre nosotros.html" class="nav.link animate__animated animate__pulse">Sobre Nosotros</a>
@@ -29,38 +29,37 @@
         </nav>
     </header>
     <head>
-      <a href="../index.html"> <span style="color: black;">Volver a página principal</span></a> <!--vinculo a página interna-->
-      <br>
-        <h1 class="contacto m-1">Contactate con nosotros
+        <br>
+        <h1 class="contacto my-3 text-center">Contactate con nosotros
             <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
         </h1>
 
     </head>
-    <main>
-        <section class="formularios m-3">
+    <main class="d-flex justify-content-center aling-items-center">
+        <section class="formularios m-3 w-50">
                                             <!--FORMULARIO DE BOOTSTRAP  ⬇️⬇️⬇️-->
-            <form class="anchoElemento">
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Nombre</label>
+            <form class="anchoContacto">
+              <div class="mb-3 aling-items-baseline">
+                <label for="exampleInputEmail1" class="form-label me-3">Nombre</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escribe tu nombre">
                 
               </div>
-              <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Apellido</label>
+              <div class="mb-3 aling-items-baseline">
+                <label for="exampleInputPassword1" class="form-label me-3">Apellido</label>
                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Escribe tu apellido">
               </div>
-              <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">*Email</label>
+              <div class="mb-3 aling-items-baseline">
+                <label for="exampleInputPassword1" class="form-label me-3">*Email</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3 aling-items-baseline">
+                <label for="exampleInputPassword1" class="form-label me-3">Contraseña</label>
                 <input type="password" class="form-control" id="exampleInputPassword1">
               </div>
               <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-              </div>
-              <div class="mb-3">
-                <label for="pais" class="form-label">Nacionalidad</label>
+                <label for="pais" class="form-label me-3">Nacionalidad</label>
                 <select name="nac" id="">
                 <option value="arg">Argentina</option>
                 <option value="uy">Uruguay</option>
@@ -69,22 +68,23 @@
             </select>
             </div>
               <div class="mb-3">
-                <label for="sexo" class="form-label">Género:</label>
+                <label for="sexo" class="form-label me-3">Género:</label>
                 <input type="radio" name="sexo" value="muj">Mujer
                 <input type="radio" name="sexo" value="muj">Hombre
                 <input type="radio" name="sexo" value="muj">No binario
             </div>
               <div class="mb-3">
-                <label for="comentId" class="form-label">Escribe tu comentario</label>
+                <label for="comentId" class="form-label me-3">Escribe tu comentario</label>
                 <textarea id="comentId" class="form-control"></textarea>
               </div>
               
-              <div class="mb-3 form-check">
+              <div class="mb-3 form-check d-flex justify-content-center aling-items-center">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">Acepto términos y condiciones</label>
               </div>
               <button type="submit" class="btn btn-secondary">Enviar</button>
             </form>
+            
       
       
           </section>
@@ -93,17 +93,19 @@
         
     </main>
     <br>
-    <a href="https://www.whatsapp.com" target="_blank"> <!--vinculo a página externa-->
+    <div class="d-flex justify-content-center aling-items-center">
+    <a href="https://www.whatsapp.com" class="me-3" target="_blank"> <!--vinculo a página externa-->
         <img src="../fotos/Whatsapp.png" alt="logo viaje" width="50px"></a>
 
-    <a href="https://www.instagram.com" target="_blank"> <!--vinculo a página externa-->
+    <a href="https://www.instagram.com" class="me-3" target="_blank"> <!--vinculo a página externa-->
         <img src="../fotos/Instagram.png" alt="logo viaje" width="50px"></a>
 
-    <a href="https://www.facebook.com" target="_blank"> <!--vinculo a página externa-->
+    <a href="https://www.facebook.com" class="me-3" target="_blank"> <!--vinculo a página externa-->
         <img src="../fotos/Facebook.png" alt="logo viaje" width="50px"></a>
 
-    <a href="https://www.telegram.com" target="_blank"> <!--vinculo a página externa-->
+    <a href="https://www.telegram.com" class="me-3" target="_blank"> <!--vinculo a página externa-->
                     <img src="../fotos/Telegram.png" alt="logo viaje" width="50px"></a>
+    </div>
 </body>
 <br><br><br><br><br><br>
 <footer>

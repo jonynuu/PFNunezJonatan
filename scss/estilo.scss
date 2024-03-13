@@ -4,8 +4,16 @@
 @import "footer";
 
 
-.anchoElemento{
-    width: 400px;
+.anchoCalificaciones{
+    width: 50%!important;
+}
+
+.formularios{
+    width: 30%!important;
+}
+
+.table{
+    width: 50%!important;
 }
 
 @media screen and (max-width:1700px){
@@ -22,7 +30,7 @@
         background-position: -100px;
     }
     .contenedor .svg img{
-        width: 600px;
+        width: 100%!important;
     }
     .contenedor .titulo h1{
         font-size: 50px;
@@ -35,7 +43,7 @@
         display: none;
     }
     .contenedor .svg img{
-        width: 500px;
+        width: 100%!important;
     }
     .contenedor .titulo h1{
         font-size: 40px;
@@ -48,11 +56,29 @@
          display: none;
      }
      .contenedor .svg img{
-         width: 600px;
+         width: 100%!important;
      }
      .contenedor .titulo h1{
          display: none;
      }
+     .formularios{
+        width: 90%!important;
+    }
+ }
+
+ @media screen and (max-width:600px){
+    .logo .logo-nombre{
+         display: none;
+     }
+     .contenedor .svg img{
+         width: 100%!important;
+     }
+     .contenedor .titulo h1{
+         display: none;
+     }
+     .formularios{
+        width: 90%!important;
+    }
  }
 
 @media (min-width:600px){
